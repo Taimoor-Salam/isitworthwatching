@@ -1,0 +1,16 @@
+.listContainer{
+    display:flex;
+    flex-direction:row;
+    margin-right:2%;
+    justify-content: center;
+}
+
+@media ( max-width: 1000px ) {
+    .listContainer { 
+        flex-direction: column; 
+    margin:0 auto;}
+  }
+
+.errorMsg{
+    color:rgb(255, 136, 0);
+}

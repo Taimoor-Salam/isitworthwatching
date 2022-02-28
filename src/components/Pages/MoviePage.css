@@ -1,0 +1,68 @@
+.moviePageContainer {
+  padding-top: 2%;
+}
+
+h1 {
+  color: white;
+}
+
+.ratingsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1%;
+  justify-content: center;
+}
+
+
+
+.backButton {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width:30px;
+    opacity:85%;
+  }
+
+  .backButton:hover,
+.backButton:focus {
+  background-color: #1a1a1a;
+}
+
+.backButton ion-icon{
+    position:absolute;
+    right:5px;
+    top:10px;
+}
+
+@media (max-width: 1000px) {
+    .ratingsContainer {
+        display:inline-block;
+        flex-direction: column;
+        margin-right:32px;
+    }
+    .backButton{
+        display: block;
+        margin:0 auto;
+    }
+  }

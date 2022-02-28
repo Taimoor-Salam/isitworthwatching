@@ -1,0 +1,15 @@
+
+.card{
+    width: 12rem;
+    font-size:12px;
+    background-color:black;
+}
+
+
+
+
+@media ( max-width: 1000px ) {
+    .card{
+        margin-top:5%;
+    }
+  }
